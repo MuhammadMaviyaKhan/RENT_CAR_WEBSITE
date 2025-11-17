@@ -10,7 +10,7 @@ body {
     color: #111;
 }
 
-/* HEADER */
+
 header {
     width: 100%;
     padding: 25px 80px;
@@ -59,7 +59,7 @@ nav a {
     color: black;
 }
 
-/* HERO SECTION */
+
 .hero {
     display: flex;
     justify-content: space-between;
@@ -136,32 +136,26 @@ nav a {
     font-size: 16px;
 }
 
-* {
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
-    font-family: "Poppins", sans-serif;
-}
-
-body {
+.Information {
     background: #fff;
     text-align: center;
     padding: 50px 0;
 }
 
-/* SECTION LABEL */
-.section-label {
+
+.label {
     display: inline-block;
     background: #eaf1ff;
     color: #2979ff;
-    padding: 8px 18px;
+    padding: 15px 20px;
     border-radius: 20px;
     font-size: 13px;
-    font-weight: 600;
+    font-size: large;
+    cursor: pointer;
     margin-bottom: 20px;
 }
 
-/* TITLE */
+
 .title {
     font-size: 32px;
     font-weight: 600;
@@ -169,7 +163,7 @@ body {
     margin-bottom: 60px;
 }
 
-/* WORK STEPS */
+
 .steps-container {
     display: flex;
     justify-content: center;
@@ -209,7 +203,7 @@ body {
     line-height: 1.4;
 }
 
-/* BRANDS SECTION */
+
 .brands {
     margin-top: 70px;
     padding: 30px 0;
